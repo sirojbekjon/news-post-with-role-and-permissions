@@ -1,0 +1,19 @@
+package com.example.appnewssite2.entity.enums;
+
+public enum Huquq {
+    ADD_USER,//ADMIN
+    EDIT_USER,//ADMIN
+    DELETE_USER,//ADMIN
+    VIEW_USERS,//ADMIN
+    ADD_LAVOZIM,//ADMIN
+    EDIT_LAVOZIM,//ADMIN
+    DELETE_LAVOZIM,//ADMIN
+    VIEW_LAVOZIMLAR,//ADMIN
+    ADD_POST,//ADMIN
+    EDIT_POST,//ADMIN
+    DELETE_POST,//ADMIN
+    ADD_COMMIT,//ALL...
+    EDIT_COMMENT,//ALL
+    DELETE_MY_COMMENT,//ALL
+    DELETE_COMMENT//ADMIN, .....
+}
